@@ -1,38 +1,221 @@
-.App {
+body{
+  padding:10px;
+}
+
+.Header{
+  display: inline-flex;
+  align-items: center;
+}
+
+.Header h2{
+  margin:0;
+  margin-right: 20px;
+  font-style: italic;
+}
+.Header a{
+  text-decoration: none;
+  color: black;
+  font-weight:bold;
+  margin-right: 20px;
+}
+
+.celebrities{
+    display: grid;
+    /*grid-template-columns: 10% 10%;*/
+    grid-template-areas:
+    'celebrity1 celebrity2' 
+    'celebrity3 celebrity4' 
+    'celebrity5 celebrity6' 
+    'celebrity7 celebrity8';
+    grid-gap: 10px;
+    text-align: left;
+  }
+#NewInterview{
+  display: flex;
+
+  text-align: left;
+  justify-content:space-between;
+  /*align-items: flex-start;
+  margin-top: 50px;
+  margin-bottom:50px;*/
+
+}
+#NewInterview .title{
+  font-weight: bold;
+}
+
+#Matt{
+  /*display: flex;*/
+  width: 70%;
+  height: 800px;
+  margin-right: 20px;
+}
+
+#Matt img{
+  width:100%;
+  max-width: 100%;
+}
+
+#directory{
+  width:30%;
+  height:800px;
+}
+.celebrity{
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*width: 20%;*/
+  height:165px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+#architecture{
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("images/ARCHITECTURE-David-Chipperfield.jpg");
+}
+#art{
+  background-image: url("images/ART-Anish-Kapoor.jpg");
+}
+#fashion{
+  background-image: url("images/FASHION-Yohji-Yamamoto.jpg");
+}
+#film{
+  background-image: url("images/FILM-Jim-Carrey.jpg");
+}
+#food{
+  background-image: url("images/FOOD-Massimo-Bottura.jpg");
+}
+#literature{
+  background-image: url("images/LITERATURE-Bret-Easton.jpg");
+}
+#music{
+  background-image: url("images/MUSIC-Alicia-Keys.jpg");
+}
+#sports{
+  background-image: url("images/SPORT-Lebron-James.jpg");
+}
+.December h3{
+  font-style: italic;
+  font-weight: normal;
+}
+.December .title{
+  font-weight: bold;
+}
+#DecemberContainer{
+  display: flex;
+  align-items: flex-start;
+}
+#DecemberRight{
+  margin-left: 50px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.readButton{
+  margin-top:30px;
+  margin-bottom: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.readNow{
+  text-decoration: none;
+  background-color: black;
+  color:white;
+  font-weight: bold;
+  padding:10px;
+}
+#life{
+  text-align: left;
+}
+#lifequote{
+  font-size:1.5em;
+  font-weight: bold;
+  font-style:italic;
+  padding: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#DecemberRight .name{
+  font-weight: bold;
+  margin:0;
+}
+
+#mostReadInterviews {
+  display: flex;
+}
+#mostReadInterviews div{
+  margin-right: 20px;
+}
+#MostRead .title{
+  font-weight: bold;
+}
+
+#MostRead .name{
+  font-weight: bold;
+  margin: 0;
+}
+
+#MostRead .quote{
+  font-style: italic;
+  margin:0;
+}
+#WorldGuide{
+  margin-top: 50px;
+}
+#worldguide{
+  background-image: url("images/worldguide.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:600px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-align: center;
+}
+#WorldGuide .title{
+  font-weight: bold;
+}
+#explore{
+  font-size: 1.5em;
+  font-style:italic;
+  font-weight: bold;
+}
+#worldGuideButton{
+  padding:10px;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+.LstWeek{
+  display: flex;
+}
+/*#lastWkContent{
+  display:flex;
+}*/
+#lotus{
+  background-image: url("images/Flying-Lotus.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:250px;
 }
 
-.App-link {
-  color: #61dafb;
+#photo{
+  display: flex;
+}
+#photo div{
+  margin-right: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#lastimages{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-areas:
+  'img1 img2 img3' 
+  'img4 img5 img6' 
+  'img7 img8 img9';
+  grid-gap: 10px;
+  text-align: left;
+
+
+
 }
