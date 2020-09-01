@@ -12,7 +12,7 @@ class Footer extends Component {
              <p>Instagram</p>
             </div>
             <div id="copyright">
-            <p>&copy 2019 The Talks</p>
+            <p>&copy; 2019 The Talks</p>
             </div>
         </div>
       );

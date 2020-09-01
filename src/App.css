@@ -137,9 +137,12 @@ body{
   font-weight: bold;
   margin:0;
 }
-
+#MostRead{
+  width:100%;
+}
 #mostReadInterviews {
   display: flex;
+  width:100%;
 }
 #mostReadInterviews div{
   margin-right: 20px;
@@ -186,26 +189,91 @@ body{
   color: black;
   font-weight: bold;
 }
-.LstWeek{
+.LastWeek #container{
   display: flex;
+}
+.LastWeek #leftside{
+  width:65%;
+  margin-right: 20px;
+}
+
+.LastWeek #rightside{
+  width:35%;
+}
+
+#wally img{
+  width: 100%;
+}
+
+#leeBjork img{
+  width: 100%;
+}
+#audio{
+  display: flex;
+  justify-content: space-between;
+}
+#dec, #listen {
+  font-weight: bold;
+}
+.LastWeek .title{
+  font-weight: bold;
+}
+.LastWeek .name{
+  font-weight: bold;
+  margin:0;
+}
+.LastWeek .quote{
+  font-style: italic;
+  margin:0;
+}
+#wallyquote{
+  margin:10px 0 30px 0;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+#bjork{
+  margin-top: 20px;
 }
 /*#lastWkContent{
   display:flex;
 }*/
-#lotus{
-  background-image: url("images/Flying-Lotus.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height:250px;
+.LastWeek #container2{
+  display: flex;
+  margin-top: 70px;
 }
-
+#pfister{
+  width:65%;
+  margin-right: 20px;
+}
+#lotus{
+  width:35%;
+}
+.LastWeek #readnow{
+  background-color: black;
+  color:white;
+  padding:10px;
+  font-weight: bold;
+}
+.Photographers{
+  width:90%;
+}
+.Photographers .title{
+  font-weight: bold;
+}
 #photo{
   display: flex;
 }
 #photo div{
   margin-right: 20px;
 }
-
+#photo .name{
+  font-weight: bold;
+  margin:0;
+}
+#photo .phototext{
+  font-style: italic;
+  margin:0;
+}
 #lastimages{
   display: grid;
   grid-template-columns: 30% 30% 30%;
@@ -213,9 +281,39 @@ body{
   'img1 img2 img3' 
   'img4 img5 img6' 
   'img7 img8 img9';
-  grid-gap: 10px;
+  grid-gap: 20px;
   text-align: left;
-
-
-
+}
+#lastimages img{
+  width:100%;
+}
+.LastInterviews{
+  margin-top: 30px;
+}
+.LastInterviews .title{
+  font-weight: bold;
+}
+.LastInterviews .name{
+  font-weight: bold;
+  margin:0;
+}
+.LastInterviews .quote{
+  font-style:italic ;
+  margin:0;
+}
+.Footer{
+  text-align: center;
+  margin-top: 30px;
+}
+#Socialmedia{
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding:10px;
+  margin-bottom: 20px;
+}
+#Socialmedia p{
+  font-weight: bold;
+  margin-right: 20px;
 }
