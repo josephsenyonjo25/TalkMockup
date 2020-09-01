@@ -7,4 +7,4 @@ The purpose of this project to recreate the layout of the Talks in a wireframe. 
 
 Please check out my deployed link as it stands thus far:
 
-https://gracious-lewin-86e175.netlify.app
+https://priceless-nightingale-d1e19a.netlify.app
